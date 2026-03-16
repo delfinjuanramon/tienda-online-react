@@ -101,3 +101,10 @@ body {
 .category-card h3 {
   margin-top: 0;
 }
+
+.user-text {
+  margin-left: 12px;
+  margin-right: 12px;
+  font-weight: bold;
+  color: white;
+}
