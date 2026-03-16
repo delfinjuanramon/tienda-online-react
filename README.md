@@ -1,16 +1,36 @@
-# React + Vite
+# Tienda Online React – Proyecto Scrum
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introducción
+Este proyecto corresponde al desarrollo inicial de una tienda en línea utilizando React y Vite, aplicando la metodología ágil Scrum para la planificación y ejecución del sistema.
 
-Currently, two official plugins are available:
+Se desarrolla como parte del Proyecto II de la Licenciatura en Desarrollo de Sistemas Web, con el objetivo de construir progresivamente una aplicación web funcional bajo el enfoque de iteraciones Scrum.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Objetivo
+Desarrollar la estructura inicial del sistema de tienda en línea que permita la navegación básica, la exploración del catálogo y la interacción inicial del usuario con la plataforma.
 
-## React Compiler
+## Descripción del Sprint 1
+En el Sprint 1 se implementa la base técnica del sistema, enfocada en:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Configuración del entorno de desarrollo con React y Vite
+- Creación de la estructura de componentes
+- Implementación de la navegación entre páginas
+- Desarrollo de la pantalla de inicio
+- Implementación del buscador de categorías
+- Visualización inicial del catálogo de productos
 
-## Expanding the ESLint configuration
+Este Sprint establece los cimientos para futuras funcionalidades como autenticación, carrito de compras y gestión de productos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Git
+- GitHub
+
+## Cómo ejecutar el proyecto
+
+1. Clonar el repositorio
+2. Instalar dependencias:
+
