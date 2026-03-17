@@ -1,29 +1,37 @@
 import { useState } from "react";
-import ProductList from "../components/ProductList";
 import SearchBar from "../components/SearchBar";
 import CategoryList from "../components/CategoryList";
+import ProductList from "../components/ProductList";
 import categories from "../data/categories";
 
 function Home() {
-  const [search, setSearch] = useState("");
+    const [search, setSearch] = useState("");
+    const [category, setCategory] = useState("");
 
-  return (
-    <>
-      <div className="card">
-        <h1>Bienvenido a la tienda en línea</h1>
-        <p>
-          Primera fase de desarrollo del sistema. Sprint 1 enfocado en acceso,
-          navegación y exploración inicial del catálogo.
-        </p>
-      </div>
+    const handleSelectCategory = (selectedCategory) => {
+        setCategory(selectedCategory);
+        setSearch("");
+    };
 
-      <SearchBar search={search} setSearch={setSearch} />
+    return (
+        <>
+            <div className="card">
+                <h2>Bienvenido a la tienda en línea</h2>
+                <p>
+                    Primera fase de desarrollo del sistema. Sprint 2 enfocado en exploración del catálogo.
+                </p>
+            </div>
 
-      <ProductList search={search} />
+            <SearchBar search={search} setSearch={setSearch} />
 
-      <CategoryList categories={categories} search={search} />
-    </>
-  );
+            <ProductList search={search} category={category} />
+
+            <CategoryList
+                categories={categories}
+                onSelectCategory={handleSelectCategory}
+            />
+        </>
+    );
 }
 
 export default Home;
