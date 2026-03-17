@@ -64,3 +64,27 @@ Después de los ajustes realizados durante el desarrollo, el backlog quedó orga
 
 ### Historia pospuesta
 - HU-15 Soporte al cliente se pospone para fases futuras del proyecto debido a limitaciones de tiempo en la primera etapa.
+
+
+## Backlog actualizado
+
+Después de la revisión de los primeros Sprint se realizaron los siguientes ajustes:
+
+- HU-06 (Carrito de compras) se reprogramó parcialmente para el Sprint 3.
+- HU-07 (Proceso de checkout) se dividió en dos iteraciones para reducir su complejidad.
+- HU-09 (Historial de pedidos) se simplificó en su alcance inicial.
+- HU-15 (Soporte al cliente) fue pospuesta para una fase posterior del proyecto.
+
+La planeación actualizada de Sprint queda de la siguiente manera:
+
+Sprint 1:
+HU-01, HU-02, HU-03
+
+Sprint 2:
+HU-04, HU-05, HU-06 (parcial), HU-07 (parcial)
+
+Sprint 3:
+HU-06 (complemento), HU-08, HU-09, HU-10, HU-11
+
+Sprint 4:
+HU-12, HU-13, HU-14, HU-15 (pospuesta), HU-16
