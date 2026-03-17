@@ -5,15 +5,16 @@ Proyecto académico desarrollado con React aplicando la metodología Scrum.
 ## Descripción
 
 Este proyecto representa la primera fase del desarrollo de una tienda en línea.
-Se implementa la estructura base del sistema permitiendo la navegación entre vistas
-y la validación inicial del catálogo.
+El objetivo principal es construir la estructura base del sistema para validar
+la navegación inicial, la organización del proyecto y la evidencia técnica del desarrollo.
 
-## Funcionalidades actuales
+## Alcance de la primera fase
 
-- Navegación básica entre páginas
+- Implementación de una aplicación SPA básica con React
+- Navegación simple entre vistas
 - Inicio de sesión simulado
 - Estructura modular de componentes
-- Organización del proyecto en Sprints
+- Organización del desarrollo por Sprints
 
 ## Tecnologías utilizadas
 
@@ -28,6 +29,6 @@ Instalar dependencias:
 
 npm install
 
-Ejecutar servidor:
+Ejecutar servidor de desarrollo:
 
 npm run dev
