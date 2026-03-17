@@ -1,30 +1,23 @@
 # Sprint 1 – Flujo de acceso y búsqueda
 
 ## Objetivo del Sprint
-Desarrollar el flujo de acceso y búsqueda del sistema, conforme a la planeación inicial del proyecto.
+Construir la base técnica inicial del sistema permitiendo el acceso al sistema, la navegación básica entre vistas y la búsqueda inicial dentro del catálogo.
 
-## Historias de Usuario del Sprint
-- HU-01: Como usuario quiero registrarme e iniciar sesión para poder realizar compras personalizadas.
-- HU-02: Como usuario quiero navegar por categorías para encontrar productos fácilmente.
-- HU-03: Como usuario quiero buscar productos con filtros para encontrar lo que necesito rápidamente.
+## Historias de Usuario desarrolladas
+- HU-01 Inicio de sesión simulado
+- HU-02 Navegación básica entre páginas
+- HU-03 Búsqueda inicial de productos
 
-## Trabajo estimado
-- Esfuerzo total: 16 puntos
-- Recursos asignados: 6 personas
-- Duración: 5 días
+## Funcionalidades implementadas
+- Configuración del entorno de desarrollo con React y Vite
+- Estructura inicial del proyecto
+- Implementación del componente Navbar
+- Navegación mediante manejo de estado en el componente principal
+- Componente de búsqueda funcional
+- Integración inicial de datos simulados
 
-## Avances del Sprint
-Durante este Sprint se desarrolló la base técnica inicial del sistema en React, incluyendo:
+## Resultados obtenidos
+Se logró una primera versión funcional del sistema que permite al usuario acceder al sistema, navegar entre vistas principales y realizar búsquedas básicas dentro del catálogo.
 
-- Configuración del entorno de desarrollo con React y Vite.
-- Estructura inicial del proyecto.
-- Pantalla de inicio de sesión simulada.
-- Navegación básica entre vistas del sistema.
-- Visualización inicial de categorías.
-- Implementación de búsqueda básica.
-
-## Resultado del Sprint
-El Sprint 1 se completó con resultado terminado, logrando establecer la estructura base del sistema y el flujo inicial de acceso y búsqueda.
-
-## Observaciones
-Este Sprint permitió sentar las bases del proyecto para continuar con el flujo de compra en el Sprint 2.
+## Ajustes identificados
+Durante la revisión se detectó la necesidad de simplificar la lógica de navegación evitando el uso de enrutamiento avanzado en esta fase inicial.
