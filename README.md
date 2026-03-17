@@ -1,23 +1,33 @@
-# Tienda Online React – Desarrollo Scrum
+# Tienda Online React
 
-Este repositorio contiene la evidencia técnica del desarrollo de la primera fase de un sistema de tienda en línea implementado con React.
+Proyecto académico desarrollado con React aplicando la metodología Scrum.
 
-El proyecto fue desarrollado siguiendo la metodología Scrum, considerando la planeación inicial del Product Backlog, la ejecución de los Sprint y los ajustes realizados durante el proceso.
+## Descripción
 
-El sistema incluye una estructura básica de navegación y visualización simulada de productos con fines académicos.
+Este proyecto representa la primera fase del desarrollo de una tienda en línea.
+Se implementa la estructura base del sistema permitiendo la navegación entre vistas
+y la validación inicial del catálogo.
+
+## Funcionalidades actuales
+
+- Navegación básica entre páginas
+- Inicio de sesión simulado
+- Estructura modular de componentes
+- Organización del proyecto en Sprints
+
+## Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript
+- CSS
 
 ## Ejecución del proyecto
 
-npm install  
+Instalar dependencias:
+
+npm install
+
+Ejecutar servidor:
+
 npm run dev
-
-## Evidencia del desarrollo
-
-En la carpeta **docs** se documentan:
-
-- Product Backlog
-- Avances de Sprint
-- Ajustes realizados
-- Arquitectura general del sistema
-
-Repositorio académico del proyecto.
