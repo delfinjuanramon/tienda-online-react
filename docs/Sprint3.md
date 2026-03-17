@@ -18,7 +18,7 @@ Se integraron mejoras en la navegación, confirmación de pedidos y visualizaci�
 ## Ajustes realizados
 Se decidió simplificar el alcance de algunas funcionalidades para cumplir con los tiempos establecidos del proyecto.
 
-La historia de usuario **HU-15 (Soporte al cliente)** fue **pospuesta para una fase posterior del desarrollo**, priorizando la estabilidad del flujo principal del sistema.
+La historia de usuario HU-15 (Soporte al cliente)** fue pospuesta para una fase posterior del desarrollo, priorizando la estabilidad del flujo principal del sistema.
 
 ## Resultado del Sprint
 El sistema alcanzó un nivel funcional más completo, permitiendo validar el flujo principal de compra y algunas funcionalidades de personalización en versión inicial.
