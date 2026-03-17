@@ -1,28 +1,30 @@
-# Sprint 1 – Estructura base y navegación inicial
+# Sprint 1 – Flujo de acceso y búsqueda
 
 ## Objetivo del Sprint
-Construir la estructura inicial del sistema de tienda en línea utilizando React, permitiendo navegación básica entre vistas y exploración inicial del catálogo mediante categorías simuladas.
+Desarrollar el flujo de acceso y búsqueda del sistema, conforme a la planeación inicial del proyecto.
 
-## Historias de Usuario implementadas
-- HU-01: Visualización de la página de inicio.
-- HU-02: Navegación básica entre vistas del sistema.
-- HU-03: Búsqueda inicial de categorías.
-- HU-04: Visualización de categorías disponibles.
+## Historias de Usuario del Sprint
+- HU-01: Como usuario quiero registrarme e iniciar sesión para poder realizar compras personalizadas.
+- HU-02: Como usuario quiero navegar por categorías para encontrar productos fácilmente.
+- HU-03: Como usuario quiero buscar productos con filtros para encontrar lo que necesito rápidamente.
 
-## Funcionalidades desarrolladas
+## Trabajo estimado
+- Esfuerzo total: 16 puntos
+- Recursos asignados: 6 personas
+- Duración: 5 días
+
+## Avances del Sprint
+Durante este Sprint se desarrolló la base técnica inicial del sistema en React, incluyendo:
+
 - Configuración del entorno de desarrollo con React y Vite.
-- Creación de la estructura base del proyecto.
-- Implementación del componente Navbar.
-- Navegación entre vistas mediante manejo de estado en `App.jsx`.
-- Implementación del componente de búsqueda.
-- Visualización de categorías desde datos simulados.
+- Estructura inicial del proyecto.
+- Pantalla de inicio de sesión simulada.
+- Navegación básica entre vistas del sistema.
+- Visualización inicial de categorías.
+- Implementación de búsqueda básica.
 
 ## Resultado del Sprint
-Se obtuvo una primera versión funcional del sistema que permite navegar entre vistas principales y explorar categorías de productos de forma básica.
+El Sprint 1 se completó con resultado terminado, logrando establecer la estructura base del sistema y el flujo inicial de acceso y búsqueda.
 
-## Ajustes realizados
-- Se decidió no utilizar React Router en esta fase para simplificar la arquitectura inicial.
-- Se utilizaron datos simulados para validar la interfaz antes de integrar backend.
-
-## Próximo Sprint
-Implementar autenticación de usuario y visualización inicial del listado de productos.
+## Observaciones
+Este Sprint permitió sentar las bases del proyecto para continuar con el flujo de compra en el Sprint 2.
