@@ -1,36 +1,31 @@
 # Tienda Online React – Proyecto Scrum
 
 ## Introducción
-Este proyecto corresponde al desarrollo inicial de una tienda en línea utilizando React y Vite, aplicando la metodología ágil Scrum para la planificación y ejecución del sistema.
+Este repositorio corresponde a la primera fase de desarrollo de una tienda en línea implementada con React, siguiendo la metodología Scrum. En GitHub se registran los avances de los Sprint, los ajustes realizados durante el proceso y la evidencia técnica del desarrollo.
 
-Se desarrolla como parte del Proyecto II de la Licenciatura en Desarrollo de Sistemas Web, con el objetivo de construir progresivamente una aplicación web funcional bajo el enfoque de iteraciones Scrum.
+## Objetivo del proyecto
+Desarrollar los Sprint propuestos en la calendarización del proyecto de tienda en línea, documentando los avances obtenidos, los ajustes realizados al Product Backlog y al Sprint Schedule, así como la evidencia técnica del desarrollo mediante el repositorio GitHub.
 
-## Objetivo
-Desarrollar la estructura inicial del sistema de tienda en línea que permita la navegación básica, la exploración del catálogo y la interacción inicial del usuario con la plataforma.
+## Estructura documental
+En la carpeta `docs` se incluye la evidencia resumida de:
 
-## Descripción del Sprint 1
-En el Sprint 1 se implementa la base técnica del sistema, enfocada en:
-
-- Configuración del entorno de desarrollo con React y Vite
-- Creación de la estructura de componentes
-- Implementación de la navegación entre páginas
-- Desarrollo de la pantalla de inicio
-- Implementación del buscador de categorías
-- Visualización inicial del catálogo de productos
-
-Este Sprint establece los cimientos para futuras funcionalidades como autenticación, carrito de compras y gestión de productos.
+- Product Backlog
+- Sprint 1
+- Sprint 2
+- Sprint 3
+- Sprint 4
+- Ajustes realizados después del Sprint 2
+- Arquitectura general del proyecto
 
 ## Tecnologías utilizadas
-
 - React
 - Vite
 - JavaScript
 - CSS
-- Git
-- GitHub
+- Git y GitHub
 
-## Cómo ejecutar el proyecto
+## Ejecución del proyecto
 
-1. Clonar el repositorio
-2. Instalar dependencias:
-
+```bash
+npm install
+npm run dev
