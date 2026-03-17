@@ -1,28 +1,36 @@
 # Product Backlog – Tienda Online React
 
-## Epic 1 – Acceso y navegación básica
+Este backlog corresponde a la primera fase del desarrollo del sistema, considerando la planeación inicial y los ajustes realizados durante los Sprint.
 
-* HU-01: Visualizar página de inicio del sistema
-* HU-02: Navegar entre páginas del sitio
+## Backlog inicial
 
-## Epic 2 – Exploración del catálogo
+| ID | Historia de Usuario | Prioridad | Esfuerzo | Sprint |
+|----|---------------------|-----------|----------|--------|
+| HU-01 | Inicio de sesión | Alta | Medio | Sprint 1 |
+| HU-02 | Navegación básica | Alta | Bajo | Sprint 1 |
+| HU-03 | Búsqueda de productos | Alta | Medio | Sprint 1 |
+| HU-04 | Visualización de catálogo | Alta | Medio | Sprint 2 |
+| HU-05 | Detalle de producto | Alta | Medio | Sprint 2 |
+| HU-06 | Carrito de compras | Alta | Alto | Sprint 2 |
+| HU-07 | Proceso de checkout | Alta | Alto | Sprint 2 |
+| HU-08 | Confirmación de pedido | Media | Medio | Sprint 2 |
+| HU-09 | Historial de pedidos | Media | Alto | Sprint 3 |
+| HU-10 | Lista de deseos | Media | Medio | Sprint 3 |
+| HU-11 | Recomendaciones | Baja | Alto | Sprint 3 |
+| HU-12 | Notificaciones | Media | Medio | Sprint 4 |
+| HU-13 | Seguimiento de pedido | Media | Medio | Sprint 4 |
+| HU-14 | Reseñas de productos | Baja | Medio | Sprint 4 |
+| HU-15 | Soporte al cliente | Baja | Alto | Sprint 4 |
+| HU-16 | Panel de analítica | Baja | Alto | Sprint 4 |
 
-* HU-03: Buscar categorías de productos
-* HU-04: Visualizar listado de categorías
+## Ajustes realizados
 
-## Epic 3 – Autenticación (Sprint futuro)
+Durante la revisión posterior al Sprint 2 se realizaron los siguientes ajustes:
 
-* HU-05: Iniciar sesión
-* HU-06: Cerrar sesión
+- HU-06 (Carrito) se reprogramó parcialmente para Sprint 3.
+- HU-07 (Checkout) se dividió en dos iteraciones.
+- HU-09 (Historial) se simplificó.
+- HU-11 (Recomendaciones) se implementó como simulación.
+- HU-15 (Soporte) se pospuso parcialmente.
 
-## Epic 4 – Gestión de productos (Sprint futuro)
-
-* HU-07: Visualizar productos por categoría
-* HU-08: Ver detalle de producto
-
-## Epic 5 – Carrito de compras (Sprint futuro)
-
-* HU-09: Agregar producto al carrito
-* HU-10: Eliminar producto del carrito
-* HU-11: Visualizar resumen de compra
-
+Estos ajustes permitieron mejorar la estabilidad del sistema y cumplir con los objetivos de la primera fase del proyecto.
