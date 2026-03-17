@@ -1,31 +1,23 @@
-# Tienda Online React – Proyecto Scrum
+# Tienda Online React – Desarrollo Scrum
 
-## Introducción
-Este repositorio corresponde a la primera fase de desarrollo de una tienda en línea implementada con React, siguiendo la metodología Scrum. En GitHub se registran los avances de los Sprint, los ajustes realizados durante el proceso y la evidencia técnica del desarrollo.
+Este repositorio contiene la evidencia técnica del desarrollo de la primera fase de un sistema de tienda en línea implementado con React.
 
-## Objetivo del proyecto
-Desarrollar los Sprint propuestos en la calendarización del proyecto de tienda en línea, documentando los avances obtenidos, los ajustes realizados al Product Backlog y al Sprint Schedule, así como la evidencia técnica del desarrollo mediante el repositorio GitHub.
+El proyecto fue desarrollado siguiendo la metodología Scrum, considerando la planeación inicial del Product Backlog, la ejecución de los Sprint y los ajustes realizados durante el proceso.
 
-## Estructura documental
-En la carpeta `docs` se incluye la evidencia resumida de:
-
-- Product Backlog
-- Sprint 1
-- Sprint 2
-- Sprint 3
-- Sprint 4
-- Ajustes realizados después del Sprint 2
-- Arquitectura general del proyecto
-
-## Tecnologías utilizadas
-- React
-- Vite
-- JavaScript
-- CSS
-- Git y GitHub
+El sistema incluye una estructura básica de navegación y visualización simulada de productos con fines académicos.
 
 ## Ejecución del proyecto
 
-```bash
-npm install
+npm install  
 npm run dev
+
+## Evidencia del desarrollo
+
+En la carpeta **docs** se documentan:
+
+- Product Backlog
+- Avances de Sprint
+- Ajustes realizados
+- Arquitectura general del sistema
+
+Repositorio académico del proyecto.
