@@ -2,45 +2,44 @@
 
 ## Tipo de arquitectura
 
-La aplicación está desarrollada bajo una arquitectura **SPA (Single Page Application)** utilizando React y Vite.
-
-El sistema se organiza en:
-
-* Componentes reutilizables
-* Páginas principales
-* Datos simulados
-* Enrutamiento mediante React Router
+El sistema se desarrolló como una **Single Page Application (SPA)** utilizando React.  
+La navegación entre las distintas vistas del sistema se realiza mediante el manejo de estado interno en el componente principal (`App.jsx`), sin utilizar enrutamiento avanzado.
 
 ## Estructura del proyecto
 
-```
 src/
  ├── components/
  │    ├── Navbar.jsx
  │    ├── SearchBar.jsx
- │    └── CategoryList.jsx
+ │    ├── CategoryList.jsx
+ │    └── ProductList.jsx
  │
  ├── pages/
  │    ├── Home.jsx
  │    └── Login.jsx
  │
  ├── data/
- │    └── categories.js
+ │    ├── categories.js
+ │    └── products.js
  │
  ├── App.jsx
  └── main.jsx
-```
 
-## Flujo de navegación
+## Funcionamiento general
 
-Usuario → Navbar → Router → Página → Componentes → Datos
+- El usuario puede iniciar sesión de forma simulada.
+- Se permite la navegación básica entre vistas mediante estado.
+- Se muestran categorías y productos utilizando datos simulados.
+- La búsqueda permite filtrar productos dinámicamente.
+- La selección de categorías permite explorar el catálogo.
 
-## Escalabilidad futura
+## Alcance de la primera fase
 
-El sistema permitirá integrar:
+La primera fase del proyecto tiene como objetivo validar:
 
-* API REST
-* Base de datos
-* Autenticación real
-* Carrito persistente
-* Panel administrador
+- La estructura base del sistema.
+- La navegación principal.
+- La exploración inicial del catálogo.
+- La evidencia técnica del desarrollo mediante el repositorio GitHub.
+
+Las funcionalidades avanzadas como carrito completo, integración con backend, pagos reales o persistencia de datos quedan fuera del alcance de esta fase del proyecto.
