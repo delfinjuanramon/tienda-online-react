@@ -34,3 +34,33 @@ Durante la revisión posterior al Sprint 2 se realizaron los siguientes ajustes:
 - HU-15 (Soporte) se pospuso parcialmente.
 
 Estos ajustes permitieron mejorar la estabilidad del sistema y cumplir con los objetivos de la primera fase del proyecto.
+
+## Backlog final de la primera fase
+
+Después de los ajustes realizados durante el desarrollo, el backlog quedó organizado de la siguiente manera:
+
+### Sprint 1
+- HU-01 Inicio de sesión (simulado)
+- HU-02 Navegación básica
+- HU-03 Búsqueda de productos
+
+### Sprint 2
+- HU-04 Visualización de catálogo
+- HU-05 Detalle de producto
+- HU-06 Carrito de compras (versión simplificada)
+- HU-07 Proceso de checkout (versión básica)
+
+### Sprint 3
+- HU-08 Confirmación de pedido
+- HU-09 Historial de pedidos (simplificado)
+- HU-10 Lista de deseos
+- HU-11 Recomendaciones básicas
+
+### Sprint 4
+- HU-12 Notificaciones
+- HU-13 Seguimiento de pedido
+- HU-14 Reseñas de productos
+- HU-16 Panel de analítica (versión inicial)
+
+### Historia pospuesta
+- HU-15 Soporte al cliente se pospone para fases futuras del proyecto debido a limitaciones de tiempo en la primera etapa.
