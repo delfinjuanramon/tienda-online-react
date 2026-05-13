@@ -1,36 +1,17 @@
-import { useState } from "react";
-import SearchBar from "../components/SearchBar";
-import CategoryList from "../components/CategoryList";
-import ProductList from "../components/ProductList";
-import categories from "../data/categories";
-
 function Home() {
-    const [search, setSearch] = useState("");
-    const [category, setCategory] = useState("");
-
-    const handleSelectCategory = (selectedCategory) => {
-        setCategory(selectedCategory);
-        setSearch("");
-    };
-
     return (
-        <>
-            <div className="card">
-                <h2>Bienvenido a la tienda en línea</h2>
-                <p>
-                    Primera fase de desarrollo del sistema. Sprint 2 enfocado en exploración del catálogo.
-                </p>
-            </div>
+        <div style={{ padding: "40px" }}>
+            <h1>Tienda en Línea</h1>
 
-            <SearchBar search={search} setSearch={setSearch} />
+            <p>
+                Primera fase del desarrollo del sistema utilizando React y Scrum.
+            </p>
 
-            <ProductList search={search} category={category} />
-
-            <CategoryList
-                categories={categories}
-                onSelectCategory={handleSelectCategory}
-            />
-        </>
+            <p>
+                En esta versión se presenta la estructura base del sistema,
+                permitiendo validar la navegación inicial y la organización del proyecto.
+            </p>
+        </div>
     );
 }
 

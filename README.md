@@ -32,3 +32,19 @@ npm install
 Ejecutar servidor de desarrollo:
 
 npm run dev
+```
+
+## Ajustes realizados después de la reunión de revisión
+
+- Mejora de validaciones en checkout
+- Optimización de navegación
+- Reorganización de componentes React
+- Corrección de errores menores
+- Refinamiento del Product Backlog
+- Actualización de documentación Scrum
+
+## Estado final del proyecto
+
+- HU-01 a HU-14 completadas
+- HU-15 pospuesta para futura implementación
+- HU-16 implementada parcialmente
